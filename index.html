@@ -38,10 +38,18 @@
             <h1>BootWiki</h1>
             <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it?</p>
             <div class="btn-group">
-            <a href="" class="btn btn-lg btn-warning">Download App</a>
-            <a href="" class="btn btn-lg btn-default">Visit Store</a>
-            <a href="" class="btn btn-lg btn-warning">Spread The Word</a>
+                <div class="row">
+                <a href="" class="btn btn-lg btn-warning">Download App</a>
+                <a href="" class="btn btn-lg btn-default">Visit Store</a>
+                <a href="" class="btn btn-lg btn-warning">Spread The Word</a>
+                </div>
             </div>
+           <!--  <div class="btn-group-vertical visible-xs">
+                <a href="" class="btn btn-lg btn-warning">Download App</a>
+                <a href="" class="btn btn-lg btn-default">Visit Store</a>
+                <a href="" class="btn btn-lg btn-warning">Spread The Word</a>
+            </div> -->
+
         </div>
     </div>
     <div class="container">
@@ -148,11 +156,11 @@
                     <span class='glyphicon glyphicon-chevron-right'></span>
                 </a>
             </div>
-         </section>
-     </div>
+        </section>
+    </div>
 
      <!-- features   -->
-     <div class="container">
+    <div class="container">
         <section>
             <div class="page-header" id="features">
                 <h2>Features. <small>Some Feautures</small></h2>
@@ -224,11 +232,12 @@
                 </div>
             </div>
         </section>
-     </div>
-     <div class="container">
-         <section>
+    </div>
+    <!-- FAQ -->
+    <div class="container">
+        <section>
             <div class="page-header" id="faq">
-                <h2>FAQ. <small>Engaging with cusumers</small></h2>
+                <h2>FAQ. <small>Engaging with consumers</small></h2>
             </div> 
             <div class='panel-group' id="accordion">
                 <div class="panel panel-success">
@@ -238,7 +247,7 @@
                                 Question One?
                             </a>
                         </div>
-                        <div id="collapse-1" class="panel-collapse collapse in">
+                        <div id="collapse-1" class="panel-collapse collapse">
                             <div class="panel-body">
                                 Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why?
                             </div>
@@ -273,8 +282,60 @@
                     </div>
                 </div>
             </div>
-         </section>
-     </div>
+        </section>
+    </div>
+    <!-- contactUs -->
+    <div class="container">
+        <section>
+            <div class="page-header" id="contact">
+                <h2>Contact Us. <small>Happy to hear from you</small></h2>
+            </div> 
+            <div class="row">
+                <div class="col-xs-4">
+                    <p>Contact us for any question at the address is below.</p>
+                    <address>
+                        <strong>BootWiki</strong><br>
+                        1234 South NorthGate <br>
+                        PO box 343 <br>
+                        Austin TX <br>
+                    </address>    
+                </div>
+                <div class="col-xs-8">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-xs-2 control-label">
+                                Name
+                            </label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-email" class="col-xs-2 control-label">
+                                Email
+                            </label>
+                            <div class="col-xs-10">
+                                <input type="text" class="form-control" id="user-email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-message" class="col-xs-3 col-sm-2 control-label">
+                                Message
+                            </label>
+                            <div class="col-xs-9 col-sm-10">
+                                <textarea name="user-message" id="user-message" class="form-control" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div> 
+                        <div class="form-group">
+                            <div class="col-xs-10 col-xs-offset-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>    
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
